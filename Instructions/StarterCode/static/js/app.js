@@ -95,6 +95,7 @@ function optionChanged(selectedID){
        //Bubbles Chart
 
        //Remove Sample value and otuID from individual
+       var sampleValue1
 
     }
 }
