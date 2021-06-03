@@ -110,4 +110,15 @@ function optionChanged(selectedID){
                     }
        },
     }
-}
+        layout = {
+          title: '<b>Bubble Chart for Each Sample</b>',
+          xaxis: {title: 'OTU ID'},
+          yaxis: { title: 'Number of Samples Collected'},
+          showlegend: false, 
+          height: 800,
+          width: 1800
+        };
+  // Plot using Plotly
+  Plotly.newPlot('bubble', [trace1], layout1);
+  
+ }
