@@ -82,6 +82,9 @@ function optionChanged(selectedID){
            width: 3
          }
        }
+       },
+       layout = {
+       title: 'Top 10 Operational Taxonmic Units ('
        }
     }
 }
