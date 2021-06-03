@@ -63,6 +63,25 @@ function optionChanged(selectedID){
     // // Check values
     //console.log(sampleValue);
     //console.log(otuID);
+    //console.log(otuLabels);
 
+    //Y axis of bar chart
+    const yAxis = otuID.map(item => 'OTU' + " " + item);
+      // consol.log(yAxis);
+
+    // Define the layout and trace object, edit color and orientation
+       const trace = {
+       y: yAxis, 
+       x sampleValue,
+       type: 'bar',
+       orientation: "h",
+       text: otuLabels,
+       maker: {
+         color: 'rgb(154, 140 152)',
+         line  {
+           width: 3
+         }
+       }
+       }
     }
 }
