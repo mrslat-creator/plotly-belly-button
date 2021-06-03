@@ -84,7 +84,17 @@ function optionChanged(selectedID){
        }
        },
        layout = {
-       title: 'Top 10 Operational Taxonmic Units ('
-       }
+       title: 'Top 10 Operational Taxonmic Units (OTU)/Individual',
+       xaxis: {title: 'Number of Samples Collected'},
+       yaxis: {title: 'OTU ID'}
+       };
+
+       //Plot using Plotly
+       Plotly.newPlot('bar', [trace], layout,  {responsive: true});
+
+       //Bubble Chart
+
+       //Remove Sample value and otuID from individual
+       
     }
 }
