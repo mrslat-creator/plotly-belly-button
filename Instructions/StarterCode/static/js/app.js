@@ -13,11 +13,14 @@ function optionChanged(selectedID){
       d3.select("#selDtaset").html("");
 
     // Select the metadata array and for each item append the item ID and adds ID to dropdown
-    data.metadata.array.forEach(item=>)
+    data.metadata.forEach(item=>)
     {
         //console.log(item.id);
+        d3.select("#selDataset").append('option').attr('value', item.id).text(item.id);
+    }
+
         d3.select ("#selDataset").node().value = selectedID;
-        
+
     }
         
     });
