@@ -55,6 +55,13 @@ function optionChanged(selectedID){
     //Slice top 10 sample values
     var sampleValue= idSample[0].sample_values.slive(0,10);
     sampleValue= sampleValue.reverse();
-    var
+    var otuID = idSample[0].otu_ids.slice(0,10);
+    otuID =otuId.reverse();
+    var otuLabels = idSample[0].otu_labels
+    otulables = otuLables. reverse();
+
+    // // Check values
+    //console.log(sampleValue);
+    //
     }
 }
