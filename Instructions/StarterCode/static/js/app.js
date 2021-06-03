@@ -62,6 +62,7 @@ function optionChanged(selectedID){
 
     // // Check values
     //console.log(sampleValue);
-    //
+    //console.log(otuID);
+
     }
 }
