@@ -100,7 +100,14 @@ function optionChanged(selectedID){
 
        //Define the layout and trace object, edit color and orientation
        const trace1 = {
-         
-       }
+         x: otuID1,
+         y: sampleValue1,
+         mode: 'markers',
+         marker: {
+           color: otuID1,
+
+           size: sampleValue1
+                    }
+       },
     }
 }
