@@ -92,9 +92,9 @@ function optionChanged(selectedID){
        //Plot using Plotly
        Plotly.newPlot('bar', [trace], layout,  {responsive: true});
 
-       //Bubble Chart
+       //Bubbles Chart
 
        //Remove Sample value and otuID from individual
-       
+
     }
 }
