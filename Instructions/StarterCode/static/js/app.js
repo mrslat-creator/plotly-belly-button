@@ -95,7 +95,12 @@ function optionChanged(selectedID){
        //Bubbles Chart
 
        //Remove Sample value and otuID from individual
-       var sampleValue1
+       var sampleValue1 =idSample[0].sample_values;
+       var otuID1 = idSample[0].otu_ids;
 
+       //Define the layout and trace object, edit color and orientation
+       const trace1 = {
+         
+       }
     }
 }
