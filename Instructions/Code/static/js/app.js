@@ -120,5 +120,4 @@ function optionChanged(selectedID){
         };
   // Plot using Plotly
   Plotly.newPlot('bubble', [trace1], layout1);
-  
- }
+   }
